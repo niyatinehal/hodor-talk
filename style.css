@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Butcherman&family=Edu+QLD+Beginner:wght@400;600&family=Rubik+Moonrocks&display=swap');
+
+:root{
+    --primary-color:#64748B;
+}
+
+body{
+    font-family: 'Black And White Picture', sans-serif;
+    margin: 0%;
+}
+
+.navigation{
+    background-color: #64748B;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation .heading{
+    margin-top: 0%;
+    text-align: center;
+    background-color: #64748B;
+    height:100px;
+    padding: 2rem 1rem;
+    font-size: 50px;
+    
+}
+
+#input{
+    padding: 1rem;
+    margin: 2rem 15rem;
+    width: 50%;
+    border-color: black;
+    height: 20vh;
+    border-width: 3px;
+}
+
+#button{
+    margin-left: 15rem;
+    border: 3px solid black;
+    font-size: 30px;
+    font-family: 'Black And White Picture', sans-serif;;
+}
+
+.outputmsg{
+    margin: 2rem 15rem;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+
+#output{
+    border: 3px solid black;
+    height: 20vh;
+    margin: 2rem 15rem;
+    width: 50%;
+    padding: 1rem;
+}
+
+.footer{
+    background-color: #aab9cd;
+    padding: 1rem;
+}
+
+.footer-heading{
+    text-align: center;
+    font-size: 50px;
+}
+
+.footer p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.image{
+    float: right;
+    height: 20px;
+}

@@ -1,10 +1,10 @@
-var txtinput= document.querySelector("#input")
-var button= document.querySelector("#button")
-var output= document.querySelector("#output")
-var serverURL="https://api.funtranslations.com/translate/klingon.json"
+var txtinput= document.querySelector("#input");
+var button= document.querySelector("#button");
+var output= document.querySelector("#output");
+var serverURL="https://api.funtranslations.com/translate/klingon.json";
 
 function URLgenerator(text){
-    return serverURL+"?text="+text;
+    return serverURL+"?"+"text="+text;
 }
 
 function clickEventHandler()
@@ -13,8 +13,8 @@ function clickEventHandler()
    fetch(URLgenerator(inputText))
    .then((response)=>response.json())
    .then((json)=>{
-    var traslated=json.contents.translated;
-    output.innerText=traslated;})
+    var traslatedTxt=json.contents.translated;
+    output.innerText=traslatedTxt;})
    
 }
 
