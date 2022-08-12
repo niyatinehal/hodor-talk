@@ -26,7 +26,7 @@ body{
 
 #input{
     padding: 1rem;
-    margin: 2rem 15rem;
+    margin: 2rem 20rem;
     width: 50%;
     border-color: black;
     height: 20vh;
@@ -34,14 +34,14 @@ body{
 }
 
 #button{
-    margin-left: 15rem;
+    margin-left: 20rem;
     border: 3px solid black;
     font-size: 30px;
     font-family: 'Black And White Picture', sans-serif;;
 }
 
 .outputmsg{
-    margin: 2rem 15rem;
+    margin: 2rem 20rem;
     font-size: 40px;
     text-decoration-line: underline;
 }
@@ -49,7 +49,7 @@ body{
 #output{
     border: 3px solid black;
     height: 20vh;
-    margin: 2rem 15rem;
+    margin: 2rem 20rem;
     width: 50%;
     padding: 1rem;
 }
