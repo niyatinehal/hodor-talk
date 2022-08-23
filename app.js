@@ -7,11 +7,15 @@ function URLgenerator(text){
     return serverURL+"?"+"text="+text;
 }
 
+function ErrorHandler(error){
+    console.log("error occured");
+}
+
 
 function clickEventHandler()
 {
     var inputText= txtinput.value;
-    console.log(inputText);
+    // console.log(inputText);
    fetch(URLgenerator(inputText))
    .then((response)=>response.json())
    .then((json)=>
@@ -19,6 +23,7 @@ function clickEventHandler()
     var traslatedTxt=json.contents.translated;
     output.innerText=traslatedTxt;}
     )
+    .catch(ErrorHandler)
 }
 
 button.addEventListener("click", clickEventHandler);
