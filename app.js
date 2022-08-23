@@ -7,6 +7,7 @@ function URLgenerator(text){
     return serverURL+"?"+"text="+text;
 }
 
+
 function clickEventHandler()
 {
     var inputText= txtinput.value;
@@ -18,7 +19,6 @@ function clickEventHandler()
     var traslatedTxt=json.contents.translated;
     output.innerText=traslatedTxt;}
     )
-   
 }
 
 button.addEventListener("click", clickEventHandler);
